@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript Snake game</title>    
+<style>
+    canvas {background: black}
+</style>
+
+<script src="snake.js"></script>
+</head>
+    
+<body onload="init()">
+    <canvas id="myCanvas" width="300" height="300">
+    </canvas>
+    <p></p>
+            <br>
+            Snake1 score is:
+            <Text id="snake1" > 0     
+            </Text> 
+            <br>
+            Snake2 score is:
+            <Text id="snake2" > 0     
+            </Text>
+            <button id="btnNeuStart" onclick="game.restart()">Neu Starten</button>
+            <br>
+            Your Record is:
+            <br>
+            Player1:<text id="txtFeld1"> Record snake1</text>         
+            <br>
+            Player2:<text id="txtFeld2"> Record snake2 </text>
+            <br><br><br>
+            <text id="alerts1" FontSize="40"></text>
+            <br>
+            <text id="alerts2" FontSize="40"></text>
+               
+    
+  
+</body>
+</html>
