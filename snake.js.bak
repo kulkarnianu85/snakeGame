@@ -389,5 +389,3 @@ onkeydown = function(e) {
             game.snake2.right=false;
         }
 }
-
-module.exports = {Snake, Game};
