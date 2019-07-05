@@ -1,1 +1,18 @@
-this is just to write notes
+thiese are just notes about git:
+git commands:
+
+git init
+git add . -------------- Add all files
+git commit -m "comments regarding commit" ---------describe commit
+git remote add origin git-HTTPS://    -----------add files/project to remote repo
+git push -u origin master    ---------- push to remote repo
+
+
+TO PUSH NEW FILE TO EXISTING REPO: (for ex., if we want to push file Notes.txt to github repo:)
+
+git add Notes.txt
+git commit -m "notes.txt added"
+git push origin master
+
+
+
